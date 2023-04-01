@@ -1,149 +1,121 @@
 import React from 'react';
+import { ValidationError } from '@formspree/react';
 
 const Form = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const myForm = event.target;
+    const data = new FormData(myForm);
+
+    fetch('http://localhost:3000/api/handler', {
+      method: 'POST',
+      body: data,
+      headers: {
+        Accept: 'application/json',
+      },
+    }).then((response) => {
+      if (response.ok) {
+        console.log('object');
+      }
+    });
+
+    // fetch(event.target.action, {
+    //   method: 'POST',
+    //   body: data,
+    //   headers: {
+    //     Accept: 'application/json',
+    //   },
+    // })
+    //   .then((response) => {
+    //     if (response.ok) {
+    //       console.log('Thanks for your submission!');
+    //       // form.reset();
+    //     } else {
+    //       response.json().then((data) => {
+    //         if (Object.hasOwn(data, 'errors')) {
+    //           const errors = data['errors']
+    //             .map((error) => error['message'])
+    //             .join(', ');
+    //           console.log(errors);
+    //         } else {
+    //           console.log(
+    //             'Oops! There was a problem submitting your form'
+    //           );
+    //         }
+    //       });
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+  };
+
   return (
     <form
-      id="fs-frm"
-      name="survey-form"
-      accept-charset="utf-8"
-      action="https://formspree.io/f/{form_id}"
-      method="post"
-      class="flex flex-col">
-      <fieldset
-        id="fs-frm-inputs"
-        class="flex flex-col">
-        <label
-          for="full-name"
-          class="mt-4">
-          Full Name
-        </label>
+      onSubmit={handleSubmit}
+      action="https://formspree.io/f/xdovlqkp"
+      className="flex h-[600px] flex-col justify-between bg-red-200 p-10 ">
+      <fieldset>
+        <label htmlFor="email">Email Address</label>
+        <br />
         <input
-          type="text"
-          name="name"
-          id="full-name"
-          placeholder="First and Last"
-          class="mt-4"
-          required=""
-        />
-        <label
-          for="email-address"
-          class="mt-4">
-          Email Address
-        </label>
-        <input
+          id="email"
           type="email"
-          name="_replyto"
-          id="email-address"
-          placeholder="email@domain.tld"
-          class="mt-4"
-          required=""
+          name="email"
         />
-        <fieldset
-          id="fs-frm-selects"
-          class="flex flex-col">
-          <label
-            for="timely"
-            class="mt-4">
-            1. The service provided was completed in a
-            timely manner.
-          </label>
-          <input
-            type="checkbox"
-            name="opcion1"
-            value="opcion1"
-            id="timely"
-          />{' '}
-          Opción 1
-          <input
-            type="checkbox"
-            name="opcion2"
-            value="opcion2"
-            id="timely"
-          />{' '}
-          Opción 2<br />
-          <input
-            type="checkbox"
-            name="opcion3"
-            value="opcion3"
-            id="timely"
-          />{' '}
-          Opción 3<br />
-          <input
-            type="checkbox"
-            name="opcion4"
-            value="opcion4"
-            id="timely"
-          />{' '}
-          Opción 4<br />
-          <input
-            type="checkbox"
-            name="opcion5"
-            value="opcion5"
-            id="timely"
-          />{' '}
-          Opción 5<br />
-          {/* <select
-            name="timely"
-            id="timely"
-            required="">
-            <option
-              value=""
-              selected=""
-              disabled="">
-              Choose
-            </option>
-            <option value="1">Strongly Agree</option>
-            <option value="3">Agree</option>
-            <option value="5">Neutral</option>
-            <option value="7">Disagree</option>
-            <option value="9">Strongly Disagree</option>
-          </select> */}
-          <label
-            for="timely"
-            class="mt-4">
-            2. The quality of work was high in quality.
-          </label>
-          <select
-            name="quality"
-            id="quality"
-            class="mt-4"
-            required="">
-            <option
-              value=""
-              selected=""
-              disabled=""
-              class="mt-4">
-              Choose
-            </option>
-            <option value="1">Strongly Agree</option>
-            <option value="3">Agree</option>
-            <option value="5">Neutral</option>
-            <option value="7">Disagree</option>
-            <option value="9">Strongly Disagree</option>
-          </select>
-        </fieldset>
-        <label
-          for="message"
-          class="mt-4">
-          Additional Comments
-        </label>
-        <textarea
-          rows="3"
-          name="message"
-          id="message"
-          placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-          required=""></textarea>
-        <input
-          type="hidden"
-          name="_subject"
-          id="email-subject"
-          value="Survey Responses"
+        <ValidationError
+          prefix="Email"
+          field="email"
         />
       </fieldset>
-      <input
-        type="submit"
-        value="Send Responses"
-      />
+
+      <fieldset>
+        <p>
+          <label htmlFor="opcion1">
+            opcion1:{' '}
+            <input
+              type="checkbox"
+              name="opcion1"
+              value="opcion1"
+              id="opcion1"
+            />
+          </label>
+        </p>
+        <p>
+          <label htmlFor="opcion2">
+            opcion2:{' '}
+            <input
+              type="checkbox"
+              name="opcion2"
+              value="opcion2"
+              id="opcion2"
+            />
+          </label>
+        </p>
+        <p>
+          <label htmlFor="opcion3">
+            opcion3:{' '}
+            <input
+              type="checkbox"
+              name="opcion3"
+              value="opcion3"
+              id="opcion3"
+            />
+          </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <textarea
+          id="message"
+          name="message"
+        />
+        <ValidationError
+          prefix="Message"
+          field="message"
+        />
+      </fieldset>
+      <button type="submit">Submit</button>
     </form>
   );
 };
