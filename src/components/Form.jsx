@@ -7,13 +7,16 @@ const Form = () => {
     const myForm = event.target;
     const data = new FormData(myForm);
 
-    fetch('http://localhost:3000/api/handler', {
-      method: 'POST',
-      body: data,
-      headers: {
-        Accept: 'application/json',
-      },
-    }).then((response) => {
+    fetch(
+      'https://pascal-formulario.vercel.app/api/handler',
+      {
+        method: 'POST',
+        body: data,
+        headers: {
+          Accept: 'application/json',
+        },
+      }
+    ).then((response) => {
       if (response.ok) {
         console.log('object');
       }
