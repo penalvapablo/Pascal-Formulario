@@ -98,7 +98,7 @@ const Form = () => {
         <fieldset>
           <button
             type="button"
-            className="text-black mx-auto mb-10 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68]"
+            className="text-black mx-auto block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68]"
             onClick={() => {
               document.getElementById('imageInput').click();
             }}>
@@ -122,7 +122,7 @@ const Form = () => {
 
         <button
           type="submit"
-          className="text-black mx-auto block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
+          className="text-black mx-auto mt-10 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
           Send
         </button>
       </form>
