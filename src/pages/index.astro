@@ -1,59 +1,20 @@
 ---
+import Flags from '../components/Flags.astro';
 import Form from '../components/Form';
+import Logo from '../components/Logo.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-  <main>
-    <h1>FORM</h1>
+  <main
+    class="mx-auto mt-10 max-w-[32rem] bg-three pt-10 shadow-lg">
+    <Logo />
+    <Flags />
     <Form client:load />
+    <a
+      href="https://www.flaticon.com/free-icons/germany"
+      title="germany icons"
+      >Flags icons created by Freepik - Flaticon</a
+    >
   </main>
-
-  <style>
-    main {
-      margin: auto;
-      padding: 1.5rem;
-      max-width: 60ch;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 800;
-      margin: 0;
-    }
-    .text-gradient {
-      background-image: var(--accent-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 400%;
-      background-position: 0%;
-    }
-    .instructions {
-      line-height: 1.6;
-      margin: 1rem 0;
-      border: 1px solid rgba(var(--accent), 25%);
-      background-color: white;
-      padding: 1rem;
-      border-radius: 0.4rem;
-    }
-    .instructions code {
-      font-size: 0.875em;
-      font-weight: bold;
-      background: rgba(var(--accent), 12%);
-      color: rgb(var(--accent));
-      border-radius: 4px;
-      padding: 0.3em 0.45em;
-    }
-    .instructions strong {
-      color: rgb(var(--accent));
-    }
-    .link-card-grid {
-      display: grid;
-      grid-template-columns: repeat(
-        auto-fit,
-        minmax(24ch, 1fr)
-      );
-      gap: 1rem;
-      padding: 0;
-    }
-  </style>
 </Layout>

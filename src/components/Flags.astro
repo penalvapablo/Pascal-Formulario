@@ -1,0 +1,39 @@
+---
+import { Image } from '@astrojs/image/components';
+import austria from '../assets/austria.png';
+import germany from '../assets/germany.png';
+import poland from '../assets/poland.png';
+import france from '../assets/france.png';
+---
+
+<div
+  class="my-5 flex h-[6rem] items-center justify-around bg-two">
+  <Image
+    alt=""
+    src={germany}
+    width={64}
+    height={64}
+    quality={50}
+  />
+  <Image
+    alt=""
+    src={poland}
+    width={64}
+    height={64}
+    quality={50}
+  />
+  <Image
+    alt=""
+    src={france}
+    width={64}
+    height={64}
+    quality={50}
+  />
+  <Image
+    alt=""
+    src={austria}
+    width={64}
+    height={64}
+    quality={50}
+  />
+</div>

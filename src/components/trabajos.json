@@ -1,0 +1,15 @@
+{
+  "trabajos":[
+  {
+    "nombre":"option1",
+    "precio": 10
+  },
+  {
+    "nombre":"option2",
+    "precio": 20
+  },  {
+    "nombre":"option3",
+    "precio": 30
+  }  
+  ]
+}
