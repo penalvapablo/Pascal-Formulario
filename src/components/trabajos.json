@@ -1,15 +1,93 @@
 {
   "trabajos":[
   {
-    "nombre":"option1",
-    "precio": 10
+    "nombre":"Absatz aufbauen",
+    "precio": 24.50
   },
   {
-    "nombre":"option2",
-    "precio": 20
+    "nombre":"Absatzflecken",
+    "precio": 29.50
   },  {
-    "nombre":"option3",
-    "precio": 30
-  }  
+    "nombre":"Clean&Care",
+    "precio": 49.50
+  },  {
+    "nombre":"Drucker mit Leder neu",
+    "precio": 24.50
+  },  {
+    "nombre":"Druckknopf",
+    "precio": 4.50
+  },  {
+    "nombre":"Elastische Schnürsenkel",
+    "precio": 49.50
+  },  {
+    "nombre":"Fersenfutter ",
+    "precio": 39.50
+  },  {
+    "nombre":"Fußreparatur (Loch)",
+    "precio": 39.50
+  },  {
+    "nombre":"Glitter&Glamour top",
+    "precio": 149.50
+  },  {
+    "nombre":"Gummizug einsetzen",
+    "precio": 139.50
+  },  {
+    "nombre":"Hinterriemen Reitstiefel",
+    "precio": 29.50
+  },  {
+    "nombre":"Klebearbeiten ab",
+    "precio": 9.50
+  },  {
+    "nombre":"Kratzer bearbeiten",
+    "precio": 24.50
+  },  {
+    "nombre":"Näharbeiten ab",
+    "precio": 9.50
+  },  {
+    "nombre":"Patch leder gross",
+    "precio": 59.50
+  },  {
+    "nombre":"Patch leder klein",
+    "precio": 39.50
+  },  {
+    "nombre":"Reitstiefel enger machen",
+    "precio": 229.50
+  },  {
+    "nombre":"RV breiter einsetzen",
+    "precio": 39.50
+  },  {
+    "nombre":"RV Chap ",
+    "precio": 44.50
+  },  {
+    "nombre":"RV reinschneiden",
+    "precio": 169.50
+  },  {
+    "nombre":"RV Jodphur/Stallschuh",
+    "precio": 39.50
+  },  {
+    "nombre":"RV Reitstiefel",
+    "precio": 59.50
+  },  {
+    "nombre":"RV Schoner (Biese)",
+    "precio": 29.50
+  },  {
+    "nombre":"Schieber",
+    "precio": 19.50
+  },  {
+    "nombre":"Schieberhalter",
+    "precio": 19.50
+  },  {
+    "nombre":"Sohle durchnähen",
+    "precio": 14.50
+  },  {
+    "nombre":"Sohlen",
+    "precio": 69.50
+  },  {
+    "nombre":"Spann/Fuss weiten",
+    "precio": 19.50
+  },  {
+    "nombre":"Schaft weiten",
+    "precio": 29.50
+  }
   ]
 }

@@ -1,5 +1,4 @@
 import generateBuget from './generateBudget';
-import getSelectedOptions from './getSelectedOptions';
 import sendFormspree from './sendFormspree';
 
 function handleSubmit(event: Event, setResult: React.Dispatch<React.SetStateAction<string>> ): void {
@@ -14,19 +13,19 @@ function handleSubmit(event: Event, setResult: React.Dispatch<React.SetStateActi
   console.log(selectedOptions);
 
   // genero presupuesto con trabajos seleccionados
-  // const budget = generateBuget(selectedOptions);
+  const budget = generateBuget(selectedOptions);
 
   // Numero de pedido
   const numeroPedido = Math.floor(Math.random() * 1000000);
 
   data.append('numero de pedido', numeroPedido.toString());
-  // data.append('presupuesto', budget.toString());
+  data.append('presupuesto', budget.toString());
 
   for (const [name, value] of data) {
     console.log(`${name} = ${value}`);
   }
 
-  // sendFormspree(event, data, setResult);
+  sendFormspree(event, data, setResult);
 }
 
 export default handleSubmit;

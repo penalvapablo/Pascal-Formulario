@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ValidationError } from '@formspree/react';
 import handleSubmit from '../utils/handleSubmit';
 import { trabajos } from './trabajos.json';
 
@@ -22,11 +21,11 @@ const Form = () => {
         onSubmit={(event) => handleSubmit(event, setResult)}
         encType="multipart/form-data"
         action="https://formspree.io/f/xdovlqkp"
-        className="bg-red-200 flex h-[600px] flex-col justify-between p-10 ">
+        className="bg-red-200 flex  flex-col justify-between p-10 ">
         <fieldset className="mx-auto flex w-full flex-col ">
           <label
             htmlFor="name"
-            className="font-serif text-xl tracking-wider">
+            className="font-serif text-xl tracking-wider text-two ">
             Name
           </label>
 
@@ -38,7 +37,7 @@ const Form = () => {
           />
           <label
             htmlFor="email"
-            className="font-serif text-xl tracking-wider">
+            className="font-serif text-xl tracking-wider text-two ">
             Email Address
           </label>
 
@@ -50,7 +49,7 @@ const Form = () => {
           />
           <label
             htmlFor="phone"
-            className="font-serif text-xl tracking-wider">
+            className="font-serif text-xl tracking-wider text-two ">
             Phone number
           </label>
 
@@ -62,11 +61,16 @@ const Form = () => {
           />
         </fieldset>
 
+        <h2 className=" mt-5 mb-2 border-b-4 border-one font-serif text-xl tracking-wider">
+          Choose the job
+        </h2>
         <fieldset className="flex flex-col ">
           {trabajos.map((trabajo) => {
             const id = trabajos.indexOf(trabajo) + 1;
             return (
-              <label key={id}>
+              <label
+                key={id}
+                className="mb-1 flex justify-between font-serif text-lg tracking-wider text-two ">
                 {trabajo.nombre}:{'  '}
                 <input
                   type="checkbox"
@@ -76,49 +80,29 @@ const Form = () => {
               </label>
             );
           })}
-          <label>
-            option1:{' '}
-            <input
-              type="checkbox"
-              name="option1"
-              value="option111"
-            />
-          </label>
-
-          <label>
-            option2:{' '}
-            <input
-              type="checkbox"
-              name="option2"
-              value="option2222"
-            />
-          </label>
-
-          <label>
-            option3:{' '}
-            <input
-              type="checkbox"
-              name="option3"
-              value="option3333"
-            />
-          </label>
         </fieldset>
 
-        <fieldset>
+        <fieldset className="mx-auto my-10 flex w-full flex-col">
+          <label
+            htmlFor="message"
+            className="mb-3 font-serif text-xl tracking-wider text-two ">
+            Leave a message
+          </label>
           <textarea
             id="message"
             name="message"
+            className="h-32"
           />
         </fieldset>
 
         <fieldset>
           <button
             type="button"
-            className="text-black mx-auto block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold duration-300 hover:bg-[#d8bc68]"
+            className="text-black mx-auto mb-10 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68]"
             onClick={() => {
               document.getElementById('imageInput').click();
             }}>
-            Subir archivo
+            Upload Image
           </button>
           <input
             type="file"
@@ -136,7 +120,11 @@ const Form = () => {
           )}
         </fieldset>
 
-        <button type="submit">Submit</button>
+        <button
+          type="submit"
+          className="text-black mx-auto block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
+          Send
+        </button>
       </form>
     </>
   );
