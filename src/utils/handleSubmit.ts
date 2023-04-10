@@ -10,7 +10,7 @@ function handleSubmit(event: Event, setResult: React.Dispatch<React.SetStateActi
 
   // extraigo trabajos seleccionados del formulario
   const selectedOptions = data.getAll(`trabajo`);
-  console.log(selectedOptions);
+  // console.log(selectedOptions);
 
   // genero presupuesto con trabajos seleccionados
   const budget = generateBuget(selectedOptions);
@@ -21,9 +21,9 @@ function handleSubmit(event: Event, setResult: React.Dispatch<React.SetStateActi
   data.append('numero de pedido', numeroPedido.toString());
   data.append('presupuesto', budget.toString());
 
-  for (const [name, value] of data) {
-    console.log(`${name} = ${value}`);
-  }
+  // for (const [name, value] of data) {
+  //   console.log(`${name} = ${value}`);
+  // }
 
   sendFormspree(event, data, setResult);
 }

@@ -4,14 +4,6 @@ interface Trabajo {
   nombre: string;
   precio: number;
 }
-console.log({trabajos});
-
-
-// const trabajos: Trabajo[] = [
-//   { nombre: 'option1', precio: 10 },
-//   { nombre: 'option2', precio: 20 },
-//   { nombre: 'option3', precio: 30 },
-// ];
 
 function generateBudget(selectedOptions: FormDataEntryValue[]): number {
   return trabajos.reduce(

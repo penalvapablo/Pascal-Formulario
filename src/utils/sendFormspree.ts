@@ -16,12 +16,10 @@ function sendFormspree(event: Event, data: FormData, setResult:React.Dispatch<Re
             const errors = data['errors']
               .map((error: any) => error['message'])
               .join(', ');
-            console.log(errors);
+            // console.log(errors);
             setResult('error')
           } else {
-            console.log(
-              'Oops! There was a problem submitting your form'
-            );
+
             setResult('error')
           }
         });

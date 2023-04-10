@@ -1,10 +1,18 @@
 import React, { useState } from 'react';
 import handleSubmit from '../utils/handleSubmit';
 import { trabajos } from './trabajos.json';
+import Succes from './Succes';
+import Error from './Error';
 
 const Form = () => {
   const [image, setImage] = useState(null);
-  const [result, setResult] = useState('');
+  const [result, setResult] = useState(null);
+
+  if (typeof window !== 'undefined') {
+    result != null
+      ? (document.body.style.overflow = 'hidden')
+      : (document.body.style.overflow = 'auto');
+  }
 
   const handleImageChange = (event) => {
     setImage(event.target.files[0]);
@@ -12,9 +20,9 @@ const Form = () => {
 
   return (
     <>
-      {result === 'succeded' && <p>PIOLA</p>}
+      {result === 'succeded' && <Succes />}
       {result === 'error' && (
-        <p>Revise que sus datos sean correctos</p>
+        <Error setResult={setResult} />
       )}
 
       <form
@@ -31,6 +39,7 @@ const Form = () => {
 
           <input
             id="name"
+            required={true}
             type="text"
             name="name"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
@@ -44,6 +53,7 @@ const Form = () => {
           <input
             id="email"
             type="email"
+            required={true}
             name="email"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
@@ -56,6 +66,7 @@ const Form = () => {
           <input
             id="phone"
             type="tel"
+            required={true}
             name="phone"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
@@ -80,6 +91,35 @@ const Form = () => {
               </label>
             );
           })}
+        </fieldset>
+
+        <fieldset className="mx-auto mt-9 flex w-full flex-col ">
+          <label
+            htmlFor="brand"
+            className="font-serif text-xl tracking-wider text-two ">
+            Model/Brand
+          </label>
+
+          <input
+            id="brand"
+            required={true}
+            type="text"
+            name="brand"
+            className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
+          />
+          <label
+            htmlFor="Size"
+            className="font-serif text-xl tracking-wider text-two ">
+            Size
+          </label>
+
+          <input
+            id="Size"
+            required={true}
+            type="text"
+            name="Size"
+            className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
+          />
         </fieldset>
 
         <fieldset className="mx-auto my-10 flex w-full flex-col">
@@ -116,6 +156,7 @@ const Form = () => {
             <img
               src={URL.createObjectURL(image)}
               alt="Preview"
+              className="mx-auto h-40"
             />
           )}
         </fieldset>
