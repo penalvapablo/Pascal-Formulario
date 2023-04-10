@@ -115,10 +115,10 @@ const Form = () => {
           </label>
 
           <input
-            id="brand"
+            id="Modell/Marke"
             required={require}
             type="text"
-            name="brand"
+            name="Modell/Marke"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
           <label
@@ -128,10 +128,10 @@ const Form = () => {
           </label>
 
           <input
-            id="Size"
+            id="Größe"
             required={require}
             type="text"
-            name="Size"
+            name="Größe"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
         </fieldset>
