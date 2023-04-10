@@ -47,7 +47,7 @@ const Form = () => {
           <label
             htmlFor="email"
             className="font-serif text-xl tracking-wider text-two ">
-            Email Address
+            E-Mail
           </label>
 
           <input
@@ -60,7 +60,7 @@ const Form = () => {
           <label
             htmlFor="phone"
             className="font-serif text-xl tracking-wider text-two ">
-            Phone number
+            Handynummer
           </label>
 
           <input
@@ -73,7 +73,7 @@ const Form = () => {
         </fieldset>
 
         <h2 className=" mt-5 mb-2 border-b-4 border-one font-serif text-xl tracking-wider">
-          Choose the job
+          Wählen Sie die gewünschte Art der Reparatur
         </h2>
         <fieldset className="flex flex-col ">
           {trabajos.map((trabajo) => {
@@ -97,7 +97,7 @@ const Form = () => {
           <label
             htmlFor="brand"
             className="font-serif text-xl tracking-wider text-two ">
-            Model/Brand
+            Modell/Marke
           </label>
 
           <input
@@ -110,7 +110,7 @@ const Form = () => {
           <label
             htmlFor="Size"
             className="font-serif text-xl tracking-wider text-two ">
-            Size
+            Größe
           </label>
 
           <input
@@ -126,7 +126,7 @@ const Form = () => {
           <label
             htmlFor="message"
             className="mb-3 font-serif text-xl tracking-wider text-two ">
-            Leave a message
+            Senden Sie eine Nachricht!
           </label>
           <textarea
             id="message"
@@ -142,7 +142,7 @@ const Form = () => {
             onClick={() => {
               document.getElementById('imageInput').click();
             }}>
-            Upload Image
+            Datei hochladen
           </button>
           <input
             type="file"
@@ -164,7 +164,7 @@ const Form = () => {
         <button
           type="submit"
           className="text-black mx-auto mt-10 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
-          Send
+          Senden
         </button>
       </form>
     </>
