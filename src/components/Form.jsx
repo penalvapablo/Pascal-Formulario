@@ -7,6 +7,7 @@ import Error from './Error';
 const Form = () => {
   const [image, setImage] = useState(null);
   const [result, setResult] = useState(null);
+  const require = true;
 
   if (typeof window !== 'undefined') {
     result != null
@@ -39,9 +40,9 @@ const Form = () => {
 
           <input
             id="name"
-            required={true}
+            required={require}
             type="text"
-            name="name"
+            name="Name"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
           <label
@@ -53,8 +54,8 @@ const Form = () => {
           <input
             id="email"
             type="email"
-            required={true}
-            name="email"
+            required={require}
+            name="E-Mail"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
           <label
@@ -66,8 +67,21 @@ const Form = () => {
           <input
             id="phone"
             type="tel"
-            required={true}
-            name="phone"
+            required={require}
+            name="Handynummer"
+            className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
+          />
+          <label
+            htmlFor="address"
+            className="font-serif text-xl tracking-wider text-two ">
+            Vollständige Adresse
+          </label>
+
+          <input
+            id="address"
+            required={require}
+            type="text"
+            name="Adresse"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
         </fieldset>
@@ -85,7 +99,7 @@ const Form = () => {
                 {trabajo.nombre}:{'  '}
                 <input
                   type="checkbox"
-                  name="trabajo"
+                  name="Ausgewählte Reparaturen"
                   value={trabajo.nombre}
                 />
               </label>
@@ -95,27 +109,27 @@ const Form = () => {
 
         <fieldset className="mx-auto mt-9 flex w-full flex-col ">
           <label
-            htmlFor="brand"
+            htmlFor="Modell/Marke"
             className="font-serif text-xl tracking-wider text-two ">
             Modell/Marke
           </label>
 
           <input
             id="brand"
-            required={true}
+            required={require}
             type="text"
             name="brand"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
           <label
-            htmlFor="Size"
+            htmlFor="Größe"
             className="font-serif text-xl tracking-wider text-two ">
             Größe
           </label>
 
           <input
             id="Size"
-            required={true}
+            required={require}
             type="text"
             name="Size"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
@@ -130,7 +144,7 @@ const Form = () => {
           </label>
           <textarea
             id="message"
-            name="message"
+            name="Nachricht"
             className="h-32"
           />
         </fieldset>
@@ -147,7 +161,7 @@ const Form = () => {
           <input
             type="file"
             id="imageInput"
-            name="image"
+            name="Bild"
             accept="image/*"
             onChange={handleImageChange}
             style={{ display: 'none' }}
