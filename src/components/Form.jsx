@@ -98,7 +98,8 @@ const Form = () => {
                 className="mb-1 flex flex-wrap justify-between font-serif text-lg tracking-wider text-two ">
                 {trabajo.nombre}:{'  '}
                 <div className="flex  justify-end gap-4">
-                  {trabajo.link && (
+                  {/* Definitivo, cuando haya links a algunos videos */}
+                  {/* {trabajo.link && (
                     <a
                       href={trabajo.link}
                       rel="noreferrer"
@@ -107,7 +108,19 @@ const Form = () => {
                       className="">
                       🎬
                     </a>
-                  )}
+                  )} */}
+                  {/* Definitivo, cuando haya links a algunos videos */}
+
+                  {/* DE PRUEBA */}
+                  <a
+                    href="https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+                    rel="noreferrer"
+                    target={'_blank'}
+                    aria-label="link to youtube"
+                    className="">
+                    🎬
+                  </a>
+                  {/* DE PRUEBA */}
                   <input
                     type="checkbox"
                     name="Ausgewählte Reparaturen"
