@@ -97,11 +97,23 @@ const Form = () => {
                 key={id}
                 className="mb-1 flex justify-between font-serif text-lg tracking-wider text-two ">
                 {trabajo.nombre}:{'  '}
-                <input
-                  type="checkbox"
-                  name="Ausgewählte Reparaturen"
-                  value={trabajo.nombre}
-                />
+                <div className="flex gap-4">
+                  {trabajo.link && (
+                    <a
+                      href={trabajo.link}
+                      rel="noreferrer"
+                      target={'_blank'}
+                      aria-label="link to youtube"
+                      className="border-b-2 border-two text-two">
+                      example
+                    </a>
+                  )}
+                  <input
+                    type="checkbox"
+                    name="Ausgewählte Reparaturen"
+                    value={trabajo.nombre}
+                  />
+                </div>
               </label>
             );
           })}

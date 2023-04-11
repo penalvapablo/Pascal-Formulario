@@ -1,5 +1,6 @@
 ---
-import Flags from '../components/Flags.astro';
+import instagram from '../assets/instagram.png';
+import { Image } from '@astrojs/image/components';
 import Form from '../components/Form';
 import Logo from '../components/Logo.astro';
 import Layout from '../layouts/Layout.astro';
@@ -9,15 +10,22 @@ import Layout from '../layouts/Layout.astro';
   <main
     class="mx-auto max-w-[32rem] bg-three pt-10 shadow-lg">
     <Logo />
-    <Flags />
-    <Form client:load />
-    <div class="flex items-center">
+    <div>
       <a
-        href="https://www.flaticon.com/free-icons/germany"
-        title="germany icons"
-        class="w- mx-auto text-center font-serif text-xs text-two"
-        >Flags icons created by Freepik - Flaticon</a
-      >
+        href="https://instagram.com/"
+        rel="noreferrer"
+        target={'_blank'}
+        aria-label="link a instagram">
+        <Image
+          alt=""
+          src={instagram}
+          width={64}
+          height={64}
+          quality={50}
+          class="mx-auto my-10"
+        />
+      </a>
     </div>
+    <Form client:load />
   </main>
 </Layout>

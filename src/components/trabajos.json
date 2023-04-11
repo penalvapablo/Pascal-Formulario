@@ -2,7 +2,8 @@
   "trabajos":[
   {
     "nombre":"Absatz aufbauen",
-    "precio": 24.50
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
   },
   {
     "nombre":"Absatzflecken",
