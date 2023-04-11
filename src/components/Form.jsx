@@ -118,7 +118,7 @@ const Form = () => {
                     target={'_blank'}
                     aria-label="link to youtube"
                     className="">
-                    🎬
+                    {'click -> 🎬'}
                   </a>
                   {/* DE PRUEBA */}
                   <input
