@@ -97,15 +97,15 @@ const Form = () => {
                 key={id}
                 className="mb-1 flex flex-wrap justify-between font-serif text-lg tracking-wider text-two ">
                 {trabajo.nombre}:{'  '}
-                <div className="flex w-fit justify-end gap-4">
+                <div className="flex  justify-end gap-4">
                   {trabajo.link && (
                     <a
                       href={trabajo.link}
                       rel="noreferrer"
                       target={'_blank'}
                       aria-label="link to youtube"
-                      className="border-b-2 border-two text-two">
-                      was ist das 🎬{' '}
+                      className="">
+                      🎬
                     </a>
                   )}
                   <input
