@@ -95,9 +95,9 @@ const Form = () => {
             return (
               <label
                 key={id}
-                className="mb-1 flex justify-between font-serif text-lg tracking-wider text-two ">
+                className="mb-1 flex flex-wrap justify-between font-serif text-lg tracking-wider text-two ">
                 {trabajo.nombre}:{'  '}
-                <div className="flex gap-4">
+                <div className="flex w-fit justify-end gap-4">
                   {trabajo.link && (
                     <a
                       href={trabajo.link}
