@@ -30,7 +30,7 @@ const Form = () => {
         onSubmit={(event) => handleSubmit(event, setResult)}
         encType="multipart/form-data"
         action="https://formspree.io/f/xdovlqkp"
-        className="bg-red-200 flex  flex-col justify-between p-10 ">
+        className="bg-red-200 flex  flex-col justify-between py-10 px-4 ">
         <fieldset className="mx-auto flex w-full flex-col ">
           <label
             htmlFor="name"
@@ -95,7 +95,7 @@ const Form = () => {
             return (
               <label
                 key={id}
-                className="mb-1 flex flex-wrap justify-between font-serif text-lg tracking-wider text-two ">
+                className="mb-1 flex flex-wrap items-center justify-between font-serif text-base tracking-wider text-two">
                 {trabajo.nombre}:{'  '}
                 <div className="flex  justify-end gap-4">
                   {/* Definitivo, cuando haya links a algunos videos */}
@@ -117,7 +117,7 @@ const Form = () => {
                     rel="noreferrer"
                     target={'_blank'}
                     aria-label="link to youtube"
-                    className="">
+                    className="items-baseline text-sm">
                     {'click -> 🎬'}
                   </a>
                   {/* DE PRUEBA */}
