@@ -87,7 +87,13 @@ const Form = () => {
         </fieldset>
 
         <h2 className=" mt-5 mb-2 border-b-4 border-one font-serif text-xl tracking-wider">
-          Wählen Sie die gewünschte Art der Reparatur
+          Wähle hier den gewünschten Service. <br /> L =
+          Links R = Rechts <br />
+          Bitte fülle für jedes Paar Reitstiefel,
+          Einzelstiefel, Stallschuh oder Chap ein separates
+          Formular aus! <br />
+          Für die Videobeschreibung klicke bitte auf den
+          jeweiligen Service!
         </h2>
         <fieldset className="flex flex-col ">
           {trabajos.map((trabajo) => {
@@ -107,7 +113,7 @@ const Form = () => {
                   </a>
                   <p className="font-sans">
                     {' '}
-                    - €{trabajo.precio}:
+                    - €{trabajo.precio.toFixed(2)}
                   </p>
                 </div>
                 <div className="flex  justify-end gap-4">
@@ -147,16 +153,16 @@ const Form = () => {
 
         <fieldset className="mx-auto mt-9 flex w-full flex-col ">
           <label
-            htmlFor="Modell/Marke"
+            htmlFor="Modell/Hersteller"
             className="font-serif text-xl tracking-wider text-two ">
-            Modell/Marke
+            Modell/Hersteller
           </label>
 
           <input
-            id="Modell/Marke"
+            id="Modell/Hersteller"
             required={require}
             type="text"
-            name="Modell/Marke"
+            name="Modell/Hersteller"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
           {/* <label
@@ -178,7 +184,10 @@ const Form = () => {
           <label
             htmlFor="message"
             className="mb-3 font-serif text-xl tracking-wider text-two ">
-            Senden Sie eine Nachricht!
+            Bitte schreibe mir hier alle notwendigen
+            Informationen die ich benötige auf. Du kannst
+            mir hier auch gerne Fragen stellen
+            oder Wünsche äußern.
           </label>
           <textarea
             id="message"
