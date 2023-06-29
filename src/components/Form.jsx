@@ -103,11 +103,11 @@ const Form = () => {
                     target={'_blank'}
                     aria-label="link to youtube"
                     className="underline">
-                    {trabajo.nombre}:
+                    {trabajo.nombre}
                   </a>
                   <p className="font-sans">
                     {' '}
-                    €{trabajo.precio}
+                    - €{trabajo.precio}:
                   </p>
                 </div>
                 <div className="flex  justify-end gap-4">
