@@ -106,7 +106,7 @@ const Form = () => {
                     {trabajo.nombre}:
                   </a>
                   <p> € </p>
-                  <p className="-translate-y-1">
+                  <p className="-translate-y-0.5">
                     {trabajo.precio}
                   </p>
                 </div>
