@@ -105,8 +105,10 @@ const Form = () => {
                     className="underline">
                     {trabajo.nombre}:
                   </a>
-                  <p> € </p>
-                  <p className="">{trabajo.precio}</p>
+                  <p className="font-sans">
+                    {' '}
+                    €{trabajo.precio}
+                  </p>
                 </div>
                 <div className="flex  justify-end gap-4">
                   {/* Definitivo, cuando haya links a algunos videos */}
