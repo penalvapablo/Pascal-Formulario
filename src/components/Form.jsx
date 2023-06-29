@@ -96,7 +96,20 @@ const Form = () => {
               <label
                 key={id}
                 className="mb-1 flex flex-wrap items-center justify-between font-serif text-base tracking-wider text-two">
-                {trabajo.nombre}:{'  '}
+                <div className="flex gap-2">
+                  <a
+                    href="https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+                    rel="noreferrer"
+                    target={'_blank'}
+                    aria-label="link to youtube"
+                    className="underline">
+                    {trabajo.nombre}:
+                  </a>
+                  <p> € </p>
+                  <p className="-translate-y-1">
+                    {trabajo.precio}
+                  </p>
+                </div>
                 <div className="flex  justify-end gap-4">
                   {/* Definitivo, cuando haya links a algunos videos */}
                   {/* {trabajo.link && (
@@ -112,14 +125,14 @@ const Form = () => {
                   {/* Definitivo, cuando haya links a algunos videos */}
 
                   {/* DE PRUEBA */}
-                  <a
+                  {/* <a
                     href="https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
                     rel="noreferrer"
                     target={'_blank'}
                     aria-label="link to youtube"
                     className="items-baseline text-sm">
                     {'click -> 🎬'}
-                  </a>
+                  </a> */}
                   {/* DE PRUEBA */}
                   <input
                     type="checkbox"
@@ -146,7 +159,7 @@ const Form = () => {
             name="Modell/Marke"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
           />
-          <label
+          {/* <label
             htmlFor="Größe"
             className="font-serif text-xl tracking-wider text-two ">
             Größe
@@ -158,7 +171,7 @@ const Form = () => {
             type="text"
             name="Größe"
             className="mt-1 mb-2  h-10 appearance-none rounded-lg bg-one px-2 py-1 font-serif text-lg tracking-wider text-two focus:outline-none"
-          />
+          /> */}
         </fieldset>
 
         <fieldset className="mx-auto my-10 flex w-full flex-col">

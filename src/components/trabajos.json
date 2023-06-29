@@ -1,94 +1,294 @@
 {
   "trabajos":[
   {
-    "nombre":"Absatz aufbauen",
+    "nombre":"Absatz aufbauen L",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },
+  {
+    "nombre":"Absatz aufbauen R",
     "precio": 24.50,
     "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
   },
   {
     "nombre":"Absatzflecken",
-    "precio": 29.50
-  },  {
-    "nombre":"Clean&Care",
-    "precio": 49.50
-  },  {
-    "nombre":"Drucker mit Leder neu",
-    "precio": 24.50
-  },  {
-    "nombre":"Druckknopf",
-    "precio": 4.50
-  },  {
+    "precio": 29.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Biese L",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Biese R",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Biese incl. RV Austausch R",
+    "precio": 14.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Biese incl. RV Austausch L",
+    "precio": 14.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Big Strap incl. Schnalle",
+    "precio": 99.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Drucker mit Leder neu R",
+    "precio": 29.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Drucker mit Leder neu L",
+    "precio": 29.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Druckknopf R",
+    "precio": 4.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Druckknopf L",
+    "precio": 4.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
     "nombre":"Elastische Schnürsenkel",
-    "precio": 49.50
-  },  {
-    "nombre":"Fersenfutter ",
-    "precio": 39.50
-  },  {
-    "nombre":"Fußreparatur (Loch)",
-    "precio": 39.50
-  },  {
-    "nombre":"Glitter&Glamour top",
-    "precio": 149.50
-  },  {
-    "nombre":"Gummizug einsetzen",
-    "precio": 139.50
-  },  {
-    "nombre":"Hinterriemen Reitstiefel",
-    "precio": 29.50
-  },  {
-    "nombre":"Klebearbeiten ab",
-    "precio": 9.50
-  },  {
-    "nombre":"Kratzer bearbeiten",
-    "precio": 24.50
-  },  {
-    "nombre":"Näharbeiten ab",
-    "precio": 9.50
-  },  {
-    "nombre":"Patch leder gross",
-    "precio": 59.50
-  },  {
-    "nombre":"Patch leder klein",
-    "precio": 39.50
-  },  {
-    "nombre":"Reitstiefel enger machen",
-    "precio": 229.50
-  },  {
-    "nombre":"RV breiter einsetzen",
-    "precio": 39.50
-  },  {
-    "nombre":"RV Chap ",
-    "precio": 44.50
-  },  {
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Fersenfutter R",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Fersenfutter L",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Fuss weiten R",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Fuss weiten L",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Gummisohlen",
+    "precio": 49.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Gummizug Chap",
+    "precio": 99.00,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Gummizug Reitstiefel",
+    "precio": 149.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Haken / Ösen R",
+    "precio": 4.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Haken / Ösen L",
+    "precio": 4.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Haken in Ösen tauschen",
+    "precio": 99.00,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Hinterriemen Reitstiefel R",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Hinterriemen Reitstiefel L",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Jagdschlaufe-Verschönern",
+    "precio": 99.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Klebearbeiten  R",
+    "precio": 9.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Klebearbeiten  L",
+    "precio": 9.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Kratzer bearbeiten R",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Kratzer bearbeiten L",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Leder-Patch gross R",
+    "precio": 59.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Leder-Patch gross L",
+    "precio": 59.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Leder-Patch klein R",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Leder-Patch klein L",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Näharbeiten  R",
+    "precio": 9.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Näharbeiten  L",
+    "precio": 9.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Putzen",
+    "precio": 9.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Reitstiefel Einfärben",
+    "precio": 99.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"RV Chap R",
+    "precio": 44.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"RV Chap L",
+    "precio": 44.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
     "nombre":"RV reinschneiden",
-    "precio": 169.50
-  },  {
-    "nombre":"RV Jodphur/Stallschuh",
-    "precio": 39.50
-  },  {
-    "nombre":"RV Reitstiefel",
-    "precio": 59.50
-  },  {
-    "nombre":"RV Schoner (Biese)",
-    "precio": 29.50
-  },  {
-    "nombre":"Schieber",
-    "precio": 19.50
-  },  {
-    "nombre":"Schieberhalter",
-    "precio": 19.50
-  },  {
-    "nombre":"Sohle durchnähen",
-    "precio": 14.50
-  },  {
-    "nombre":"Sohlen",
-    "precio": 69.50
-  },  {
-    "nombre":"Spann/Fuss weiten",
-    "precio": 19.50
-  },  {
-    "nombre":"Schaft weiten",
-    "precio": 29.50
+    "precio": 179.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"RV Jodphur/Stallschuh R",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"RV Jodphur/Stallschuh L",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"RV Reitstiefel R",
+    "precio": 59.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"RV Reitstiefel L",
+    "precio": 59.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Riester R",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Riester L",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Schieber R",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Schieber L",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Schürreitstiefel",
+    "precio": 199.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Schieberhalter R",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Schieberhalter L",
+    "precio": 19.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Swarovski-Steine k/m/g",
+    "precio": 79.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Spann weiten R",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Spann weiten L",
+    "precio": 24.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Schaft weiten R",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  },  
+  {
+    "nombre":"Schaft weiten L",
+    "precio": 39.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+  }, 
+  {
+    "nombre":"Top-Verschönern",
+    "precio": 149.50,
+    "link": "https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
   }
   ]
 }
