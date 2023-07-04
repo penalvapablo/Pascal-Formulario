@@ -35,7 +35,7 @@ const Form = () => {
           <label
             htmlFor="name"
             className="font-serif text-xl tracking-wider text-two ">
-            Name
+            Vor und Nachnahme
           </label>
 
           <input
@@ -185,9 +185,7 @@ const Form = () => {
             htmlFor="message"
             className="mb-3 font-serif text-xl tracking-wider text-two ">
             Bitte schreibe mir hier alle notwendigen
-            Informationen die ich benötige auf. Du kannst
-            mir hier auch gerne Fragen stellen
-            oder Wünsche äußern.
+            Informationen die ich benötige auf
           </label>
           <textarea
             id="message"
