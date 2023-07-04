@@ -104,7 +104,7 @@ const Form = () => {
                 className="mb-1 flex flex-wrap items-center justify-between font-serif text-base tracking-wider text-two">
                 <div className="flex gap-2">
                   <a
-                    href="https://www.youtube.com/watch?v=VyKFdHIByyE&t=2s&ab_channel=Townsends"
+                    href={trabajo.link}
                     rel="noreferrer"
                     target={'_blank'}
                     aria-label="link to youtube"
