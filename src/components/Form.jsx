@@ -222,8 +222,8 @@ const Form = () => {
         <p className="mb-3 mt-6 font-serif text-xl tracking-wider text-two">
           Dies ist keine verbindliche Bestellung, sondern
           nur eine Anfrage. Nach dem Absenden des Formulars
-          melde ich mich per E-mail so schnell
-          wie möglich bei dir
+          melde ich mich per E-mail so schnell wie möglich
+          bei dir
         </p>
         <button
           type="submit"
