@@ -219,10 +219,15 @@ const Form = () => {
             />
           )}
         </fieldset>
-
+        <p className="mb-3 mt-6 font-serif text-xl tracking-wider text-two">
+          Dies ist keine verbindliche Bestellung, sondern
+          nur eine Anfrage. Nach dem Absenden des Formulars
+          melde ich mich per E-mail so schnell
+          wie möglich bei dir
+        </p>
         <button
           type="submit"
-          className="text-black mx-auto mt-10 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
+          className="text-black mx-auto mt-5 block w-[90%] transform rounded bg-[#FEDF7E] py-2 px-4 font-bold text-two duration-300 hover:bg-[#d8bc68] ">
           Senden
         </button>
       </form>
