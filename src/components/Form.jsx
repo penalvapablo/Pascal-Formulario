@@ -35,7 +35,7 @@ const Form = () => {
           <label
             htmlFor="name"
             className="font-serif text-xl tracking-wider text-two ">
-            Vor und Nachnahme
+            Vor und Nachname
           </label>
 
           <input
