@@ -11,7 +11,7 @@
     "link": "https://www.youtube.com/watch?v=7rnwfIx9ypA&ab_channel=Reitstiefeldoktor"
   },
   {
-    "nombre":"Absatzflecken",
+    "nombre":"Absatzflecken/Paar",
     "precio": 29.50,
     "link": "https://www.youtube.com/watch?v=Xmy3cxqRfvQ"
   }, 
@@ -37,7 +37,7 @@
     "link": "https://www.youtube.com/watch?v=cPfqoo-cQFw"
   }, 
   {
-    "nombre":"Big Strap incl. Schnalle",
+    "nombre":"Big Strap incl. Schnalle/Paar",
     "precio": 99.50,
     "link": "https://www.youtube.com/watch?v=PXN8evFZBBE"
   }, 
@@ -63,7 +63,7 @@
     "link": "https://www.youtube.com/watch?v=vpco1MCrTdQ"
   }, 
   {
-    "nombre":"Elastische Schnürsenkel",
+    "nombre":"Elastische Schnürsenkel/Paar",
     "precio": 24.50,
     "link": "https://www.youtube.com/watch?v=RbdZLni2tPw"
   },
@@ -88,17 +88,17 @@
     "link": "https://www.youtube.com/watch?v=b5HPCBHubDs"
   }, 
   {
-    "nombre":"Gummisohlen",
+    "nombre":"Gummisohlen/Paar",
     "precio": 49.50,
     "link": "https://www.youtube.com/watch?v=pPoGFr60eac"
   }, 
   {
-    "nombre":"Gummizug Chap",
+    "nombre":"Gummizug Chap/Paar",
     "precio": 99.50,
     "link": "https://www.youtube.com/watch?v=FFcy7iuzXw8"
   }, 
   {
-    "nombre":"Gummizug Reitstiefel",
+    "nombre":"Gummizug Reitstiefel/Paar",
     "precio": 149.50,
     "link": "https://www.youtube.com/watch?v=7sEpFNo13kc"
   },
@@ -113,7 +113,7 @@
     "link": "https://www.youtube.com/watch?v=WX-PcRT1_Uc"
   },  
   {
-    "nombre":"Haken in Ösen tauschen",
+    "nombre":"Haken in Ösen tauschen/Paar",
     "precio": 99.50,
     "link": "https://www.youtube.com/watch?v=y39uQ9s0WdU"
   }, 
@@ -128,7 +128,7 @@
     "link": "https://www.youtube.com/watch?v=AuvRRay_ty8"
   },  
   {
-    "nombre":"Jagdschlaufe-Verschönern",
+    "nombre":"Jagdschlaufe-Verschönern/Paar",
     "precio": 99.50,
     "link": "https://www.youtube.com/watch?v=x4XExP3MbVo"
   }, 
@@ -183,12 +183,12 @@
     "link": "https://www.youtube.com/watch?v=VEQNewde8GA"
   },  
   {
-    "nombre":"Putzen",
+    "nombre":"Putzen/Paar",
     "precio": 9.50,
     "link": "https://www.youtube.com/watch?v=BtsEB9g-oVA"
   }, 
   {
-    "nombre":"Reitstiefel Einfärben",
+    "nombre":"Reitstiefel Einfärben/Paar",
     "precio": 99.50,
     "link": "https://www.youtube.com/watch?v=3uLojnV63cA"
   }, 
@@ -203,7 +203,7 @@
     "link": "https://www.youtube.com/watch?v=d3NFcnpBC8U"
   },  
   {
-    "nombre":"RV reinschneiden",
+    "nombre":"RV reinschneiden/Paar",
     "precio": 179.50,
     "link": "https://www.youtube.com/watch?v=gAdWWaiyTG8"
   },   
@@ -248,7 +248,7 @@
     "link": "https://www.youtube.com/watch?v=QbKEVeh0nxk"
   },  
   {
-    "nombre":"Schnürreitstiefel",
+    "nombre":"Schnürreitstiefel/Paar",
     "precio": 199.50,
     "link": "https://www.youtube.com/watch?v=OwfoU5IKijg"
   }, 
@@ -263,7 +263,7 @@
     "link": "https://www.youtube.com/watch?v=tfVTVovlmg4"
   },  
   {
-    "nombre":"Swarovski-Steine k/m/g",
+    "nombre":"Swarovski-Steine k/m/g/Paar",
     "precio": 79.50,
     "link": "https://www.youtube.com/watch?v=xjaaBINGgT4"
   },
@@ -288,7 +288,7 @@
     "link": "https://www.youtube.com/watch?v=0hClv7O8npc"
   },  
   {
-    "nombre":"Top-Verschönern",
+    "nombre":"Top-Verschönern/Paar",
     "precio": 149.50,
     "link": "https://www.youtube.com/watch?v=YONC_2w3SqM"
   }
