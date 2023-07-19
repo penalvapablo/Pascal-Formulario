@@ -111,10 +111,10 @@ const Form = () => {
                     className="underline">
                     {trabajo.nombre}
                   </a>
-                  <p className="font-sans">
+                  {/* <p className="font-sans">
                     {' '}
                     - €{trabajo.precio.toFixed(2)}
-                  </p>
+                  </p> */}
                 </div>
                 <div className="flex  justify-end gap-4">
                   {/* Definitivo, cuando haya links a algunos videos */}
