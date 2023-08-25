@@ -26,7 +26,7 @@ const Form = () => {
         <br /> Hier meine Handynummer: <br />
         <a
           href="tel:+0031615460226"
-          class=" text-base tracking-wider text-two underline">
+          className=" text-base tracking-wider text-two underline">
           0031615460226
         </a>
         <br />
