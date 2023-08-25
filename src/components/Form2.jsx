@@ -23,7 +23,12 @@ const Form = () => {
         über meinen Service. Einfach draufklicken und Ihr
         seht ein kurzes Video.
         <br />
-        <br /> Hier meine Handynummer: 0031615460226
+        <br /> Hier meine Handynummer: <br />
+        <a
+          href="tel:+0031615460226"
+          class=" text-base tracking-wider text-two underline">
+          0031615460226
+        </a>
         <br />
         <br /> Euer Reitstiefeldoktor,
         <br /> Pascal Everhardt
