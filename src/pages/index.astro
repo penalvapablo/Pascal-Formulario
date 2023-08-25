@@ -1,14 +1,15 @@
 ---
 import instagram from '../assets/instagram.png';
+import whatsapp from '../assets/whatsapp.png';
 import { Image } from '@astrojs/image/components';
-import Form from '../components/Form';
+import Form from '../components/Form2';
 import Logo from '../components/Logo.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Reitstiefel Doktor">
   <main
-    class="mx-auto max-w-[32rem] bg-three pt-10 shadow-lg">
+    class="mx-auto max-w-[32rem] bg-three px-5 pt-10 shadow-lg">
     <Logo />
     <div>
       <a
@@ -26,6 +27,22 @@ import Layout from '../layouts/Layout.astro';
         />
       </a>
     </div>
-    <Form client:load />
+    <Form />
+    <div class="flex w-full justify-center gap-10">
+      <a
+        href="https://api.whatsapp.com/send?phone=31615460226"
+        rel="noreferrer"
+        target={'_blank'}
+        aria-label="link a whatsapp">
+        <Image
+          alt=""
+          src={whatsapp}
+          width={64}
+          height={64}
+          quality={50}
+          class="mx-auto my-10"
+        />
+      </a>
+    </div>
   </main>
 </Layout>

@@ -1,4 +1,4 @@
-import { trabajos  } from '../components/trabajos.json'
+import { trabajos  } from '../components/old/trabajos.json'
 
 interface Trabajo {
   nombre: string;

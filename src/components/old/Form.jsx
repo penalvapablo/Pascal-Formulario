@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import handleSubmit from '../utils/handleSubmit';
+import handleSubmit from '../../utils/handleSubmit';
 import { trabajos } from './trabajos.json';
 import Succes from './Succes';
 import Error from './Error';
